@@ -111,8 +111,7 @@ def do_we_want_it(isbn, work_id):
         'include_promises': 'true',  # include promises and sponsored books
         'search_id': isbn
     }
-    domain = 'https://www-judec.archive.org'  # replace w/ config param once me
-    url = '%s/book/marc/ol_dedupe.php?%s' % (domain,  urllib.urlencode(params))
+    url = '%s/book/marc/ol_dedupe.php?%s' % (config_ia_domain,  urllib.urlencode(params))
     r = requests.get(url)
     try:
         data = r.json()

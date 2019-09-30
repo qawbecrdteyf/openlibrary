@@ -52,6 +52,9 @@ amazon_titles = [
             'Trapped in a Video Game', None],
         ["An American Marriage (Oprah's Book Club): A Novel",
             'An American Marriage', 'A Novel'],
+        ['Bloody Times: The Funeral of Abraham Lincoln and the Manhunt for Jefferson Davis',
+            'Bloody Times',
+            'The Funeral of Abraham Lincoln and the Manhunt for Jefferson Davis']
 
         ]
 
